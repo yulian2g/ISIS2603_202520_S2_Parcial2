@@ -1,4 +1,4 @@
 # Parcial Práctico 2
 
-- Nombre:
-- código:
+- Nombre:Julian Andres Guzman Garcia
+- código:202414714

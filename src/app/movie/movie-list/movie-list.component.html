@@ -1,11 +1,12 @@
 <div>
-  <div>
+  <div class="container mt-4"> 
     @if (selected) {
     <div *ngIf="selected">
       <app-movie-detail [movie]="selectedMovie"></app-movie-detail>
     </div>
     }
-    <table>
+    
+    <table class="text-center py-5">
       <thead>
         <tr>
           <th>Titulo</th>
@@ -13,6 +14,7 @@
           <th>Duracion en minutos</th>
           <th>Director</th>
         </tr>
+        
       </thead>
       <tbody>
         @for(movie of movies; track movie.id){

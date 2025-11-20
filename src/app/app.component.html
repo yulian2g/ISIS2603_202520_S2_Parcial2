@@ -1,2 +1,15 @@
 <h1>Movies</h1>
+<li class="nav-item">
+  <a class="nav-link"
+     routerLink="/movies"
+     routerLinkActive="active"
+     [routerLinkActiveOptions]="{exact: false}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+         class="bi bi-reply-all me-1" viewBox="0 0 16 16">
+      <path d="M8.21 11.5a.5.5 0 0 1 .79.407V13.5c0 .28.3.446.537.287l4.5-3a.5.5 0 0 0 0-.894l-4.5-3A.5.5 0 0 0 9 7.5v1.592a.5.5 0 0 1-.79.407L4.5 7.5 8.21 11.5z"/>
+      <path d="M3.5 11.5v-1.592a.5.5 0 0 0-.79-.407L.21 11.5 2.71 13.5l.79-.407A.5.5 0 0 0 3.5 11.5z"/>
+    </svg>
+    movie
+  </a>
+</li>
 <app-movie-list></app-movie-list>
